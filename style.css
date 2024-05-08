@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.show1 {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/a73c4363-1dcd-4719-b3b1-3725418fd91d/fe1147dd-78be-44aa-a0e5-2d2994305a13/IN-en-20231016-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    height: 500px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    box-shadow: 13px 10px 315px 111px rgba(0, 0, 0, 0.75) inset;
+    ;
+}
+
+.show2 {
+    z-index: 1;
+}
+
+.show2 img {
+    position: absolute;
+    width: 155px;
+    margin-top: 20px;
+    margin-left: 166px;
+
+}
+
+.sign {
+    position: absolute;
+    padding: 8px 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    right: 0;
+    margin-top: 25px;
+    margin-right: 180px;
+
+}
+
+.sign:hover {
+    opacity: 0.7;
+}
+
+.contant {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.contant h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+    text-align: center;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.contant p {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    margin-left: 100px;
+}
+
+.mail {
+    background-color: rgb(54, 41, 41);
+    height: 55px;
+    width: 395px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    padding-left: 13px;
+    margin-left: 100px;
+
+}
+
+.button {
+    background-color: red;
+    height: 55px;
+    width: 210px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    padding-right: 25px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.part {
+    background-color: rgb(47, 44, 44);
+    height: 9px;
+}
+
+.part1 {
+    background-color: black;
+    height: 560px;
+    color: white;
+    display: flex;
+
+}
+
+.netimg1 {
+    margin-top: 120px;
+    width: 600px;
+    height: 350px;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.neth1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: 850;
+    margin-top: 180px;
+    margin-left: 180px;
+}
+
+.netp1 {
+    margin-left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+
+.part2 {
+    background-color: black;
+    height: 560px;
+    color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.netimg2 {
+    display: flex;
+    margin-right: 40px;
+    margin-top: 95px;
+
+}
+
+.neth2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: 850;
+    margin-right: 90px;
+    margin-left: 190px;
+    margin-top: 170px;
+    width: 80%;
+
+
+}
+
+.netp2 {
+    display: flex;
+    margin-left: 190px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.netimg3 {
+    display: flex;
+    margin-left: 190px;
+    margin-top: 95px;
+}
+
+.neth3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: 850;
+
+    margin-left: 190px;
+    margin-top: 160px;
+    margin-right: 10px;
+    width: 80%;
+}
+
+.netp3 {
+    display: flex;
+    margin-left: 190px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.part3 {
+    background-color: black;
+    height: 990px;
+    color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.neth4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: 850;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.sec1 {
+
+    background-color: rgb(63, 63, 63);
+    width: 1120px;
+    height: 85px;
+}
+
+.opt1 {
+    font-size: 23px;
+}
+
+.button1 {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    cursor: pointer;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1120px;
+    height: 85px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.button1 i {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.content1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 21px;
+}
+
+.button1:hover {
+    opacity: 0.6;
+}
+
+.mail1 {
+    background-color: rgb(54, 41, 41);
+    height: 55px;
+    width: 395px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    padding-left: 12px;
+    margin-left: 240px;
+
+}
+
+.button2 {
+    background-color: red;
+    height: 55px;
+    width: 210px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    padding-right: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.part4 {
+    background-color: black;
+    height: 300px;
+    color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+footer div ul li {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+.sub1 ul li a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub2 ul li a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub3 ul li a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub4 ul li a {
+    color: white;
+}
+
+.footer1 p {
+    margin-top: 60px;
+    font-size: 18px;
+}
